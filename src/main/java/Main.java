@@ -7,12 +7,12 @@ public class Main {
 
         d.setName("Rax");
         d.eat();
-        d.Sound();
+        d.sound();
 
 
         c.setName("Stormy");
         c.eat();
-        c.Sound();
+        c.sound();
 
         home.makeAllSounds();
         home.adoptPet(d);
@@ -20,14 +20,7 @@ public class Main {
         System.out.println(".............");
         home.adoptPet(c);
         home.makeAllSounds();
-
-
-
-
-
     }
-
-
 }
 
 

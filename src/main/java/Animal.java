@@ -2,15 +2,13 @@ public class Animal {
 
     private String name;
 
-    public void Sound(){
-        System.out.println("Dog barks");
-
-
+    public String sound(){
+        return "Barks";
     }
 
-    public void eat(){
+    public String eat(){
 
-        System.out.println(name + " eats");
+        return "Food";
     }
     public String getName() {
         return name;
@@ -19,9 +17,6 @@ public class Animal {
     public void setName(String name) {
         this.name = name;
     }
-
-
-
 }
 
 

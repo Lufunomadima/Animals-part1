@@ -9,7 +9,7 @@ public class Home {
 
       public   void makeAllSounds(){
             for(Animal a: pet_Storage){
-                a.Sound();
+                a.sound();
             }
 
 
